@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap');
+
+
+
+
+
+@media(max-width:450px){
+   html{
+      font-size: 50px;
+   }
+}
+* {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   
+   font-family: poppins;
+  
+ }
+ nav{
+   background-color: rgba(3, 1, 1, 0.1);
+   display: flex;
+   color: rgb(248, 244, 244);
+  height: 70px;
+  width: 100%;
+  position: absolute;
+}
+
+label.logo{
+   color:#fbfbfb ;
+   font-size: 35px;
+   line-height: 50px;
+   padding: 0 100px;
+   font-weight: bold;
+   background-color: rgba(0, 0, 0,0.3);
+   float: left;
+   letter-spacing: 2px;
+ }
+ 
+ 
+ul{
+   padding: 10px;
+   text-decoration: none;
+   list-style: none;
+   color: black;
+   bottom: 10px;
+   
+}
+nav ul li {
+   display: inline-block;
+   padding: 10px;
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+  font-size: 20px ;
+  font-weight: bolder;
+  margin-left: 100px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  
+}
+li:hover{
+  letter-spacing: 6px;
+  background-color:rgba(0, 0, 0,0.3); 
+  border-radius: 5px;
+}
+nav ul li a {
+   color: rgb(250, 245, 245);
+   text-decoration: none;
+   
+}
+
+
+
+
+.all img{
+  background-size: 500px;
+  width: 1850px;
+  height: 600px;
+  
+}
+
+.search {
+   float: left;
+   text-align: center;
+   display: flex;
+   position: absolute;
+   padding: 690px ;
+  cursor: pointer;
+
+}
+  
+ .serch .box {
+   width: 500px;
+   height: 40px;
+   border-radius: 10px;
+   border-color:white;
+   border-radius: 15px;
+   text-transform: uppercase;
+   padding: 10px;
+   opacity: 50%;
+   top: 50%;
+   left: 50%;
+   
+}
+.box:hover{
+   opacity: 100%;
+}
+
+ .submit{
+   background-color: rgb(229 173 142);
+   color: black;
+  height: 30px;
+  width: 110px;
+  text-transform: uppercase;
+  display: inline-block;
+   position: absolute;
+   border-radius: 25px;
+  
+}
+
+
+ /*.search.submit {
+   display: inline-block;
+   position: absolute;
+   width: 50px;
+   text-transform: uppercase;
+   
+  
+
+
+}*/
+
+  
+.word p{
+   display: flex;
+    float: left;
+    color: #ece6e6;
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    align-items: center;
+    font-size: 89px;
+    font-family: 'Indie Flower','cursive';
+    letter-spacing: 3px;
+
+
+}
+
+ .page p{
+  color: aliceblue;
+  background-color: blue;
+  cursor: grab;
+  
+}
+.heading{
+   text-align: center;
+   padding: 2.5rem 0 ;
+   letter-spacing: 2px;
+}
+.heading span{
+   font-size: 3.5rem;
+   background-color: rgb(206, 159, 140);
+    color: rgb(214, 122, 83);
+   border-radius: 0.5rem;
+   padding: 0.2rem 1rem;
+   letter-spacing: 2px;
+  
+   
+}
+ 
+
+.box-continer img{
+   height: 400px;
+   width: 400px;
+   opacity: 10;
+   filter: grayscale(60%);
+   border-radius: 15px;
+   transform: translate3d(0,0,0);
+}
+
+  .box-continer img:hover{
+   filter:grayscale(0%);
+   /*transform: translateZ(15px);
+   transition: 0.9s*/
+   
+   
+}
+.box-continer{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 2rem;
+  justify-content: center;
+   justify-content: space-evenly;
+   
+   
+}
+.box-continer .box{
+   flex: 1 1 30rem;
+   border-radius: 5rem;
+   overflow: hidden;
+   box-shadow: 0 1rem 2rem black;
+  
+   
+}
+.box-continer .box img{
+   height: 25rem;
+   width: 100%;
+   object-fit: fill;
+}
+.box-continer .box .content{
+   padding: 3rem;
+  
+}
+.box-continer .box .content h3{
+   font-size: 2rem;
+   color: #333;
+   text-transform: uppercase;
+   
+
+}
+.box-continer .box .content h3 i{
+   color:rgb(241, 202, 169);
+}
+.box-continer.box.content p{
+   font-size: 1.7rem;
+   color: #666;
+   padding: 1rem 0;
+   overflow:hidden;
+   border: black;
+}
+.box-continer .box .content .stars i{
+   font-size: 1.7rem;
+   color:rgb(214, 122, 83) ;
+
+
+}
+.box-continer .box .content .price{
+   font-size: 2rem;
+   color: #333;
+   padding-top: 1rem;
+}
+.box-continer .box .content .price span{
+   color: #666;
+   font-size: 1.5rem;
+   text-decoration: line-through;
+}
+
+.btn{
+   background-color:rgb(214 122 83) ;
+   color: black;
+   padding: 15px;
+   border: chocolate;
+   width: 20px;
+   text-decoration: none;
+   letter-spacing: 2px;
+   padding-bottom: 10px;
+   padding-top: 1px;
+   border-radius: 20px;
+   text-align: center;
+   justify-content: center;
+}
+.btn:hover{
+   letter-spacing: 6px;
+}
+ span{
+   letter-spacing: 2px;
+}
+ span :hover{
+   letter-spacing: 6px;
+}
+h3{
+   text-transform: uppercase;
+   font-size: 2rem;
+   color: #333;
+   background-color: rgb(241 222 213);
+   border-radius: 5px;
+   text-align: center;
+   margin: 10px;
+   letter-spacing: 2px;
+
+}
+
+p{
+   font-size: 1.7rem;
+   color: #666;
+   padding: 1rem 0;
+   
+}
